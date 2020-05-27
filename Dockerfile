@@ -20,7 +20,7 @@ RUN \
 FROM openjdk:8u151-jre-alpine3.7
 LABEL maintainer="Gavin Lam <me@gavin.hk>"
 
-EXPOSE 8080
+EXPOSE 80
 
 COPY --from=builder \
     /usr/src/app/target/tabula-api-standalone.jar \
