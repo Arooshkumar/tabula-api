@@ -27,3 +27,4 @@ COPY --from=builder \
     /usr/src/app/tabula-api-standalone.jar
 
 CMD ["java", "-jar", "/usr/src/app/tabula-api-standalone.jar"]
+
