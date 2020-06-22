@@ -25,4 +25,4 @@ See [`/doc`](doc).
 
 MIT License
 
-[tabula-java]: https://github.com/tabulapdf/tabula-java
+[tabula-java]: https://github.com/tabulapdf/tabula-java.
