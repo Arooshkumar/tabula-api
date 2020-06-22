@@ -21,6 +21,7 @@ FROM openjdk:8u151-jre-alpine3.7
 LABEL maintainer="Gavin Lam <me@gavin.hk>"
 
 EXPOSE 80
+EXPOSE 443
 
 COPY --from=builder \
     /usr/src/app/target/tabula-api-standalone.jar \
